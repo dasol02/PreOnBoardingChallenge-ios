@@ -13,6 +13,8 @@
 		CBF5E5E829B1E0E700FE75ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF5E5E629B1E0E700FE75ED /* Main.storyboard */; };
 		CBF5E5EA29B1E0E800FE75ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF5E5E929B1E0E800FE75ED /* Assets.xcassets */; };
 		CBF5E5ED29B1E0E800FE75ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF5E5EB29B1E0E800FE75ED /* LaunchScreen.storyboard */; };
+		CBF5E5F529B1E24C00FE75ED /* ImageLoadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5E5F429B1E24C00FE75ED /* ImageLoadCell.swift */; };
+		CBF5E5F729B1E60200FE75ED /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5E5F629B1E60200FE75ED /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBF5E5E929B1E0E800FE75ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF5E5EC29B1E0E800FE75ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBF5E5EE29B1E0E800FE75ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF5E5F429B1E24C00FE75ED /* ImageLoadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadCell.swift; sourceTree = "<group>"; };
+		CBF5E5F629B1E60200FE75ED /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		CBF5E5DF29B1E0E700FE75ED /* ImageDownloadProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBF5E5F629B1E60200FE75ED /* UIImageView.swift */,
 				CBF5E5E029B1E0E700FE75ED /* AppDelegate.swift */,
 				CBF5E5E229B1E0E700FE75ED /* SceneDelegate.swift */,
 				CBF5E5E429B1E0E700FE75ED /* ViewController.swift */,
+				CBF5E5F429B1E24C00FE75ED /* ImageLoadCell.swift */,
 				CBF5E5E629B1E0E700FE75ED /* Main.storyboard */,
 				CBF5E5E929B1E0E800FE75ED /* Assets.xcassets */,
 				CBF5E5EB29B1E0E800FE75ED /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5E5F729B1E60200FE75ED /* UIImageView.swift in Sources */,
 				CBF5E5E529B1E0E700FE75ED /* ViewController.swift in Sources */,
+				CBF5E5F529B1E24C00FE75ED /* ImageLoadCell.swift in Sources */,
 				CBF5E5E129B1E0E700FE75ED /* AppDelegate.swift in Sources */,
 				CBF5E5E329B1E0E700FE75ED /* SceneDelegate.swift in Sources */,
 			);
